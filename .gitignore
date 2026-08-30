@@ -1,0 +1,16 @@
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+node_modules/
+dist/
+
+# Local legal corpus and generated search index; distribute separately or via Git LFS.
+data/
+faiss_index/
+data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/ 

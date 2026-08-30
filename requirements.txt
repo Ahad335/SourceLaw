@@ -1,0 +1,17 @@
+# Backend (FastAPI + RAG pipeline)
+fastapi
+uvicorn[standard]
+pydantic
+
+# RAG
+langchain
+langchain-core
+langchain-community
+langchain-huggingface   # embeddings only (local, no API key)
+langchain-groq          # chat model
+langchain-text-splitters
+faiss-cpu
+pypdf
+sentence-transformers
+huggingface-hub
+python-dotenv
